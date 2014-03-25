@@ -1,11 +1,11 @@
 ---
 applications:
-- name: phpmyadmin
+- name: spjphpmyadmin
   memory: 128M 
   instances: 1
-  host: phpmyadmin
-  domain: cfapps.io
+  host: spjphpmyadmin
+  domain: ng.bluemix.net
   path: .
-  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  buildpack: https://github.com/joshisa/cf-php-build-pack.git 
   services:
-  - mysql-db
+  - test
