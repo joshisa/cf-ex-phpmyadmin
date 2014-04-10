@@ -8,4 +8,4 @@ applications:
   path: .
   buildpack: https://github.com/joshisa/cf-php-build-pack.git 
   services:
-  - test
+  - ghostdbservice
