@@ -1,11 +1,11 @@
 ---
 applications:
-- name: spjphpmyadmin
+- name: yourphpmyadmin
   memory: 128M 
   instances: 1
-  host: spjphpmyadmin
+  host: yourphpmyadmin
   domain: ng.bluemix.net
   path: .
   buildpack: https://github.com/joshisa/cf-php-build-pack.git 
   services:
-  - ghostdbservice
+  - nameofyourmysqlserviceinstance
